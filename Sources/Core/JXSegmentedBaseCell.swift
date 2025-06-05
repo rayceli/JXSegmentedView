@@ -112,7 +112,7 @@ open class JXSegmentedBaseCell: UICollectionViewCell, JXSegmentedViewRTLCompatib
         }
     }
     
-    func setSelectedStyle(isSelected: Bool) {
+    open func setSelectedStyle(isSelected: Bool) {
         
     }
 }
