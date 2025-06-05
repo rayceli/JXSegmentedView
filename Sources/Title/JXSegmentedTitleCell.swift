@@ -199,7 +199,7 @@ open class JXSegmentedTitleCell: JXSegmentedBaseCell {
         }
     }
     
-    override func setSelectedStyle(isSelected: Bool) {
+    open override func setSelectedStyle(isSelected: Bool) {
         if isSelected {
             self.titleLabel.textColor = (self.itemModel as? JXSegmentedTitleItemModel)?.titleSelectedColor
         } else {
